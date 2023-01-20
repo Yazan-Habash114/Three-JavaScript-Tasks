@@ -1,0 +1,77 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.main-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    outline: none;
+    width: 30rem;
+    padding: 0 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: 2px solid rgb(29, 29, 29);
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+input:focus {
+    border: 2px solid rgb(45, 45, 45);
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.buttons {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 500ms;
+    width: 30rem;
+    margin: 6px 0;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(45, 45, 45);
+}
+
+ol {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+    width: 30rem;
+    border: 2px solid rgb(29, 29, 29);
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    overflow: scroll;
+}
+
+li {
+    margin: 10px;
+    width: 30rem;
+    list-style-type: disc;
+}
+
+a {
+    color: rgb(45, 45, 45);
+}
